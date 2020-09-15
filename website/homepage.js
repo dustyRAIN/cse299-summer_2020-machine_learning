@@ -33,8 +33,14 @@ function post_data(){
     }, 
 	function(data){
         console.log(data);
-        document.getElementById("result").innerHTML="You have a " + data.result*100 + 
-                                                    " percent chance of having a heart disease.";
+        if(data.result == 1){
+            document.getElementById("result").innerHTML="Please visit a doctor, you have heart disease.";
+            document.getElementById("result").style.backgroundColor = 'rgb(199, 9, 41)';
+        } else {
+            document.getElementById("result").innerHTML="It seems that you are safe.";
+            document.getElementById("result").style.backgroundColor = 'rgb(9, 199, 72)';
+        }
+        
         document.getElementById("result").style.visibility="visible";
         document.getElementById("result").style.height="50px";
 	});
