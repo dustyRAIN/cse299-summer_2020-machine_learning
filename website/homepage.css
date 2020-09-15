@@ -1,0 +1,57 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.header_cont{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(54, 52, 52);
+}
+
+#headline{
+    color: wheat;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.input_cont{
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.input_cont input{
+    width: 80%;
+    height: 22px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+#submit{
+    width: 81%;
+    height: 22px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+#result{
+    visibility: hidden;
+    width: 40%;
+    height: 0px;
+    margin: auto;
+    background-color: rgb(211, 210, 195);
+    color: rgb(20, 109, 150);
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 20px;
+}

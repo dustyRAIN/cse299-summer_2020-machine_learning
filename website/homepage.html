@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Heart Disease Predictor</title>
+    <link rel="stylesheet" href="homepage.css" type="text/css"/>
+</head>
+
+<body>
+
+
+
+<div class="header_cont">
+    <p id="headline">Heart Disease Predictor</p>
+</div>
+
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="homepage.js"></script>
+
+<div id="result">
+    result
+</div>
+
+<div class="input_cont">
+    <input type="age"       id="age" name="age" placeholder="Age"></input>
+    <input type="sex"       id="sex" name="sex" placeholder="Gender(M/F)"></input>
+    <input type="cp"        id="cp" name="cp" placeholder="Chest Pain(y/n)"></input>
+    <input type="trestbps"  id="trestbps" name="trestbps" placeholder="Resting Blood Pressure"></input>
+    <input type="chol"      id="chol" name="chol" placeholder="Cholesterol"></input>
+    <input type="fbs"       id="fbs" name="fbs" placeholder="Fasting Blood Sugar"></input>
+    <input type="restecg"   id="restecg" name="restecg" placeholder="ECG"></input>
+    <input type="thalach"   id="thalach" name="thalach" placeholder="Thalach"></input>
+    <input type="exang"     id="exang" name="exang" placeholder="Excercise Angina"></input>
+    <input type="oldpeak"   id="oldpeak" name="oldpeak" placeholder="Old Peak"></input>
+    <input type="slope"     id="slope" name="slope" placeholder="ECG Slope"></input>
+    <input type="ca"        id="ca" name="ca" placeholder="CA"></input>
+    <input type="thal"      id="thal" name="thal" placeholder="Thal"></input>
+    <button id="submit" onclick="post_data()">Predict</button>
+</div>
+
+</body>
+
+</html>
